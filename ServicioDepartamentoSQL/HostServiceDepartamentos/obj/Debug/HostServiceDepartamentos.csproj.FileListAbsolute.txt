@@ -1,0 +1,17 @@
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\HostServiceDepartamentos.dll.config
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\HostServiceDepartamentos.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\HostServiceDepartamentos.pdb
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\ServicioDepartamentoSQL.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\EntityFramework.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\ServicioDepartamentoSQL.pdb
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\ServicioDepartamentoSQL.dll.config
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\EntityFramework.xml
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\obj\Debug\HostServiceDepartamentos.csprojAssemblyReference.cache
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\obj\Debug\HostServiceDepartamentos.csproj.CoreCompileInputs.cache
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\obj\Debug\HostServiceDepartamentos.csproj.CopyComplete
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\obj\Debug\HostServiceDepartamentos.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\obj\Debug\HostServiceDepartamentos.pdb
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\EntityFramework.SqlServer.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\System.Data.SqlClient.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\EntityFramework.SqlServer.xml
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\HostServiceDepartamentos\bin\System.Data.SqlClient.xml

@@ -1,0 +1,17 @@
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\HostServiceDoctor.dll.config
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\HostServiceDoctor.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\HostServiceDoctor.pdb
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\ServiceDoctoresSQL.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\EntityFramework.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\ServiceDoctoresSQL.pdb
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\ServiceDoctoresSQL.dll.config
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\EntityFramework.xml
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\obj\Debug\HostServiceDoctor.csprojAssemblyReference.cache
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\obj\Debug\HostServiceDoctor.csproj.CoreCompileInputs.cache
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\obj\Debug\HostServiceDoctor.csproj.CopyComplete
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\obj\Debug\HostServiceDoctor.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\obj\Debug\HostServiceDoctor.pdb
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\EntityFramework.SqlServer.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\System.Data.SqlClient.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\EntityFramework.SqlServer.xml
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\HostServiceDoctor\bin\System.Data.SqlClient.xml

@@ -1,0 +1,14 @@
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\bin\Release\ServicioDepartamentoSQL.dll.config
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\bin\Release\ServicioDepartamentoSQL.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\bin\Release\ServicioDepartamentoSQL.pdb
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\bin\Release\EntityFramework.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\bin\Release\System.Data.SqlClient.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\bin\Release\EntityFramework.xml
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\bin\Release\System.Data.SqlClient.xml
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\obj\Release\ServicioDepartamentoSQL.csprojAssemblyReference.cache
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\obj\Release\ServicioDepartamentoSQL.csproj.CoreCompileInputs.cache
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\obj\Release\ServicioDepartamentoSQL.csproj.CopyComplete
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\obj\Release\ServicioDepartamentoSQL.dll
+C:\Users\mario\Documents\0-Master\Azure\ServicioDepartamentoSQL\ServicioDepartamentoSQL\obj\Release\ServicioDepartamentoSQL.pdb
