@@ -7,7 +7,6 @@ C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bi
 C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Debug\EntityFramework.xml
 C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Debug\System.Data.SqlClient.xml
-C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\obj\Debug\ServiceDoctoresSQL.csprojAssemblyReference.cache
 C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\obj\Debug\ServiceDoctoresSQL.csproj.CoreCompileInputs.cache
 C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\obj\Debug\ServiceDoctoresSQL.csproj.CopyComplete
 C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\obj\Debug\ServiceDoctoresSQL.dll

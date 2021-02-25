@@ -1,0 +1,14 @@
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Release\ServiceDoctoresSQL.dll.config
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Release\ServiceDoctoresSQL.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Release\ServiceDoctoresSQL.pdb
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Release\EntityFramework.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Release\System.Data.SqlClient.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Release\EntityFramework.xml
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\bin\Release\System.Data.SqlClient.xml
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\obj\Release\ServiceDoctoresSQL.csprojAssemblyReference.cache
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\obj\Release\ServiceDoctoresSQL.csproj.CoreCompileInputs.cache
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\obj\Release\ServiceDoctoresSQL.csproj.CopyComplete
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\obj\Release\ServiceDoctoresSQL.dll
+C:\Users\mario\Documents\0-Master\Azure\ServiceDoctoresSQL\ServiceDoctoresSQL\obj\Release\ServiceDoctoresSQL.pdb
