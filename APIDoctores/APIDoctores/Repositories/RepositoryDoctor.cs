@@ -23,7 +23,7 @@ namespace APIDoctores.Repositories
 
         public Doctor BuscarDoctor(int id)
         {
-            return this.context.Doctores.SingleOrDefault(x => x.IdHospital == id);
+            return this.context.Doctores.SingleOrDefault(x => x.IdDoctor == id);
         }
 
         public List<String> GetEspecialidad()

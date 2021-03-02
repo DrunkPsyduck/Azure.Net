@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario\\Documents\\0-Master\\Nugets\\APIDoctores\\APIDoctores\\APIDoctores.csproj": {}
+    "C:\\Users\\mario\\Documents\\0-Master\\Azure\\APIDoctores\\APIDoctores\\APIDoctores.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario\\Documents\\0-Master\\Nugets\\APIDoctores\\APIDoctores\\APIDoctores.csproj": {
+    "C:\\Users\\mario\\Documents\\0-Master\\Azure\\APIDoctores\\APIDoctores\\APIDoctores.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\Documents\\0-Master\\Nugets\\APIDoctores\\APIDoctores\\APIDoctores.csproj",
+        "projectUniqueName": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\APIDoctores\\APIDoctores\\APIDoctores.csproj",
         "projectName": "APIDoctores",
-        "projectPath": "C:\\Users\\mario\\Documents\\0-Master\\Nugets\\APIDoctores\\APIDoctores\\APIDoctores.csproj",
+        "projectPath": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\APIDoctores\\APIDoctores\\APIDoctores.csproj",
         "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\Documents\\0-Master\\Nugets\\APIDoctores\\APIDoctores\\obj\\",
+        "outputPath": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\APIDoctores\\APIDoctores\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"

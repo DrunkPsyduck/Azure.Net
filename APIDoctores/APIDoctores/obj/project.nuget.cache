@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y6grnME7Kr28PTS1HaXXGJnw3yjziJnV47/DQI+OfHDaRiOHDctYzrZ9YMYanuBn/jTYOB07vTpFDEPqhL0Brw==",
+  "dgSpecHash": "D6nef/CfIN7cThRw9mCIi18g43kJYDOt9p7TyepGXeERLoadNZbXASvOyPXrmkmQVskNqpFrFT8CJfm3E/U5Cw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mario\\Documents\\0-Master\\Nugets\\APIDoctores\\APIDoctores\\APIDoctores.csproj",
+  "projectFilePath": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\APIDoctores\\APIDoctores\\APIDoctores.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mario\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\mario\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
