@@ -1,0 +1,11 @@
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\APIPErsonas.exe
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.Development.json
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\appsettings.json
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\APIPErsonas.dll
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\APIPErsonas.deps.json
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\APIPErsonas.runtimeconfig.json
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\APIPErsonas.pdb
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\Microsoft.OpenApi.dll
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mario\Documents\0-Master\Nugets\APIPErsonas\APIPErsonas\obj\Release\netcoreapp3.1\PubTmp\Out\Swashbuckle.AspNetCore.SwaggerUI.dll
