@@ -1,0 +1,71 @@
+﻿<h1>Home</h1>
+@section scripts{
+
+    <script src="~/js/servicioapidepartamentos.js"></script>
+    <script>
+
+        let urlapi = "https://apidepartamentosmc.azurewebsites.net/";
+
+        $(document).ready(function () {
+            cargarDepartamentos();
+            $("#botoneliminar").click(function () {
+                let id = $("#cajanumero").val();
+                eliminarDepartamentoAsync(id, function () {
+                    cargarDepartamentos();
+                })
+            });
+            $("#botoninsertar").click(function () {
+                //Parse IMPORTANTE, si no nunca funcionara
+                let id = parseInt($("#cajanumero").val());
+                let nombre = $("#cajanombre").val();
+                let loc = $("#cajalocalidad").val();
+                let json = convertirDeptJson(id, nombre, loc)
+                insertarDepartamentoAsync(json, function () {
+                    cargarDepartamentos();
+                })
+            });
+
+            $("#botonmodificar").click(function () {
+                let id = parseInt($("#cajanumero").val());
+                let nombre = $("#cajanombre").val();
+                let loc = $("#cajalocalidad").val();
+                let json = convertirDeptJson(id, nombre, loc)
+                modificarDepartamentoAsync(json, function () {
+                    cargarDepartamentos();
+                })
+            })
+        });
+
+        function cargarDepartamentos() {
+            getTablaDepartamentosAsync(function (data) {
+                $("#tabladepartamentos tbody").html(data);
+            })
+        }
+    </script>
+}
+
+<form method="post">
+    <label> Id</label>
+    <input type="text" id="cajanumero" placeholder="Id departamento" class="form-control" />
+    <label> Nombre</label>
+    <input type="text" id="cajanombre" placeholder="Nombre departamento" class="form-control" />
+    <label> Localidad</label>
+    <input type="text" id="cajalocalidad" placeholder="Localidad departamento" class="form-control" />
+    <div>
+
+        <button type="button" id="botoninsertar" class="btn btn-success">insertar</button>
+        <button type="button" id="botonmodificar" class="btn btn-warning">Modificar</button>
+        <button type="button" id="botoneliminar" class="btn btn-danger">Borrar</button>
+    </div>
+</form>
+
+<table class="table table-bordered table-info" id="tabladepartamentos">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th> Localidad</th>
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>

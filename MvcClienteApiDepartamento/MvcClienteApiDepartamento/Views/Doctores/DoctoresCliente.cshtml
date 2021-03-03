@@ -1,0 +1,96 @@
+﻿@section scripts{
+    <script>
+        let url = "https://apidoctoresmc.azurewebsites.net";
+        $(document).ready(function () {
+            cargarDoctores();
+            cargarEspecialidad();
+            $("#botonbuscar").click(function () {
+                let espe = $("#especialidad option:selected").val();
+                let request = "/api/Doctor/DoctoresEspecialidad/" + espe;
+                $.ajax({
+                    url: url + request,
+                    method: "GET",
+                    dataType: "json",
+                    success: function (data) {
+                        let html = "";
+                        $.each(data, function (ind, doctor) {
+                            html += "<tr>";
+                            html += "<td>" + doctor.apellido + "</td>";
+                            html += "<td>" + doctor.especialidad + "</td>";
+                            html += "<td>" + doctor.salario + "</td>";
+                            html += "<td>" + doctor.idHospital + "</td>";
+                            html += "</tr>";
+                        })
+                        $("#tabladoctores tbody").html(html);
+                    }
+                })
+            })
+            $("#doc").click(function () {
+                console.log("test")
+            })
+        });
+
+        function cargarDoctores(){
+            let request = "/api/doctor";
+            $.ajax({
+                url: url + request,
+                method: "GET",
+                dataType: "json",
+                success: function (data) {
+                    let html = "";
+                    $.each(data, function (ind, doctor) {
+                        html += "<tr>";
+                        html += "<td>" + doctor.apellido + "</td>";
+                        html += "<td>" + doctor.especialidad + "</td>";
+                        html += "<td>" + doctor.salario + "</td>";
+                        html += "<td>" + doctor.idHospital + "</td>";
+                        html += "<td><button class='btn btn-outline-info' id='doc'>detalles</button>";
+                        html += "</tr>";
+                    });
+                    $("#tabladoctores tbody").html(html);
+                
+                }
+            })
+         
+        }
+
+        function cargarEspecialidad() {
+            let request = "/api/doctor/especialidades";
+            $.ajax({
+                url: url + request,
+                method: "GET",
+                dataType: "json",
+                success: function (data) {
+                    let html = "";
+                    $.each(data, function (ind, especialidad) {
+                        html += "<option value='" + especialidad + "'>" + especialidad + "</option>";
+                    });
+                    $("#especialidad").html(html);
+                }
+            })
+        }
+    </script>
+
+}
+<h1> COnsumo API Cliente</h1>
+
+<form method="post">
+    <label> Seleccione especialidad:</label>
+    <select name="especialidad" id="especialidad">
+    </select>
+    <button type="button" class="btn btn-info" id="botonbuscar">Mostrar resultados</button>
+</form>
+</hr>
+<table class="table table-active" id="tabladoctores">
+    <thead>
+        <tr>
+            <th>Apellido</th>
+            <th>Especialidad</th>
+            <th>Salario</th>
+            <th>Hospital</th>
+            
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
+
