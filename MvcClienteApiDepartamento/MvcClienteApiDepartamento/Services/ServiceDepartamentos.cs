@@ -14,6 +14,11 @@ namespace MvcClienteApiDepartamento.Services
     {
         Uri uriapi;
         MediaTypeWithQualityHeaderValue Header;
+        public ServiceDepartamentos(String url)
+        {
+            this.uriapi = new Uri(url);
+            this.Header = new MediaTypeWithQualityHeaderValue("application/json");
+        }
 
         private async Task<T> CallApi<T>(String request) 
         {
@@ -33,54 +38,20 @@ namespace MvcClienteApiDepartamento.Services
                 }
             }
         }
-        public ServiceDepartamentos(String url)
-        {
-            this.uriapi = new Uri(url);
-            this.Header = new MediaTypeWithQualityHeaderValue("application/json");
-        }
 
         public async Task<List<Departamento>> GetDepartamentosAsync()
         {
-            using (HttpClient client = new HttpClient())
-            {
-                String request = "api/departamento";
-                client.BaseAddress = this.uriapi;
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(this.Header);
-
-                HttpResponseMessage response = await client.GetAsync(request);
-
-                if (response.IsSuccessStatusCode)
-                {
-                    List<Departamento> data = await response.Content.ReadAsAsync<List<Departamento>>();
-                    return data;
-                }
-                else
-                {
-                    return null;
-                }
-            }
+            String request = "api/departamento";
+            List<Departamento> departamentos = await this.CallApi<List<Departamento>>(request);
+            return departamentos;
         }
 
         public async Task<Departamento> BuscarDepartamentoAsync(int id)
         {
-            using (HttpClient client = new HttpClient())
-            {
-                String request = "api/departamento/" + id;
-                client.BaseAddress = this.uriapi;
-                client.DefaultRequestHeaders.Accept.Clear();
-                client.DefaultRequestHeaders.Accept.Add(this.Header);
-                HttpResponseMessage response = await client.GetAsync(request);
-                if (response.IsSuccessStatusCode)
-                {
-                    Departamento departamento = await response.Content.ReadAsAsync<Departamento>();
-                    return departamento;
-                }
-                else
-                {
-                    return null;
-                }
-            }
+            String request = "api/departamento/"+id;
+            Departamento departamento = await this.CallApi<Departamento>(request);
+            return departamento;
+
         }
 
         public async Task EliminarDepartamentoAsync(int id)
@@ -95,6 +66,7 @@ namespace MvcClienteApiDepartamento.Services
 
                 await client.DeleteAsync(request);
             }
+            
         }
 
         public async Task InsertarDepartamentoAsync(int id, String nombre, String localidad)
