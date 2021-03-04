@@ -1,0 +1,9 @@
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\bin\Debug\netcoreapp3.1\NugetDoctorModels.deps.json
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\bin\Debug\netcoreapp3.1\NugetDoctorModels.dll
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\bin\Debug\netcoreapp3.1\NugetDoctorModels.pdb
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\obj\Debug\netcoreapp3.1\NugetDoctorModels.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\obj\Debug\netcoreapp3.1\NugetDoctorModels.AssemblyInfoInputs.cache
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\obj\Debug\netcoreapp3.1\NugetDoctorModels.AssemblyInfo.cs
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\obj\Debug\netcoreapp3.1\NugetDoctorModels.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\obj\Debug\netcoreapp3.1\NugetDoctorModels.dll
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\obj\Debug\netcoreapp3.1\NugetDoctorModels.pdb

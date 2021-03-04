@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>NugetDoctorModelsMVRK</id>
+    <version>1.0.1</version>
+    <authors>MVRK</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <icon>20210304_113400_0000.png</icon>
+    <description>Package Description</description>
+    <tags>doctor, nugetDoctor</tags>
+    <dependencies>
+      <group targetFramework=".NETCoreApp3.1">
+        <dependency id="Microsoft.EntityFrameworkCore" version="5.0.3" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\NugetDoctorModels\NugetDoctorModels\bin\Release\netcoreapp3.1\NugetDoctorModels.dll" target="lib\netcoreapp3.1\NugetDoctorModels.dll" />
+    <file src="C:\Users\AlumnoMCSD\Downloads\20210304_113400_0000.png" target="20210304_113400_0000.png" />
+  </files>
+</package>
