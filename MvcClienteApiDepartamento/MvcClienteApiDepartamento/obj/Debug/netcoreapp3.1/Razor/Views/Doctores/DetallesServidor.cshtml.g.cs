@@ -19,8 +19,15 @@ using MvcCoreDoctores;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\Views\_ViewImports.cshtml"
+using NugetDoctorModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"30d341d5424f73f64bab414c01adb4146877a30e", @"/Views/Doctores/DetallesServidor.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"818a313e0c04579d6240fdd2c6bb990644c64b4e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"94ac5b7cec940819fb660a155646bee4c884c7f0", @"/Views/_ViewImports.cshtml")]
     public class Views_Doctores_DetallesServidor : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<MvcCoreDoctores.Models.Doctor>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "DoctoresServidor", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -146,7 +153,7 @@ Write(Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }));
 #line hidden
 #nullable disable
             WriteLiteral(" |\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "30d341d5424f73f64bab414c01adb4146877a30e7984", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "30d341d5424f73f64bab414c01adb4146877a30e8217", async() => {
                 WriteLiteral("Back to List");
             }
             );

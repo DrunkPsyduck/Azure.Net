@@ -19,8 +19,15 @@ using MvcCoreDoctores;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\Views\_ViewImports.cshtml"
+using NugetDoctorModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"47e8da8fc4aee324490b2ba630ae621e8565c1b8", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"818a313e0c04579d6240fdd2c6bb990644c64b4e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"94ac5b7cec940819fb660a155646bee4c884c7f0", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("src", new global::Microsoft.AspNetCore.Html.HtmlString("~/js/servicioapidepartamentos.js"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -54,7 +61,7 @@ using MvcCoreDoctores;
             WriteLiteral("<h1>Home</h1>\r\n");
             DefineSection("scripts", async() => {
                 WriteLiteral("\r\n\r\n    ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47e8da8fc4aee324490b2ba630ae621e8565c1b84062", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47e8da8fc4aee324490b2ba630ae621e8565c1b84295", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -113,7 +120,7 @@ using MvcCoreDoctores;
             }
             );
             WriteLiteral("\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47e8da8fc4aee324490b2ba630ae621e8565c1b86825", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "47e8da8fc4aee324490b2ba630ae621e8565c1b87058", async() => {
                 WriteLiteral(@"
     <label> Id</label>
     <input type=""text"" id=""cajanumero"" placeholder=""Id departamento"" class=""form-control"" />

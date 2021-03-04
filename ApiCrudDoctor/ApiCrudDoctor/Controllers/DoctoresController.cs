@@ -48,5 +48,12 @@ namespace ApiCrudDoctor.Controllers
             this.repo.DeleteDoctor(id);
         }
 
+        [HttpPut]
+        [Route("[action]/{incremento}/{hospital}")]
+        public void IncrementarSalario(int incremento, int hospital)
+        {
+            this.repo.IncrementarSalario(incremento, hospital);
+        }
+
     }
 }

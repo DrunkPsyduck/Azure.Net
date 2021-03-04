@@ -19,8 +19,15 @@ using MvcCoreDoctores;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\Views\_ViewImports.cshtml"
+using NugetDoctorModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"67280b7c3e58749ae2aec09cfcfe0aa46674f189", @"/Views/Departamentos/ListDepartamentos.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"818a313e0c04579d6240fdd2c6bb990644c64b4e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"94ac5b7cec940819fb660a155646bee4c884c7f0", @"/Views/_ViewImports.cshtml")]
     public class Views_Departamentos_ListDepartamentos : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<MvcClienteApiDepartamento.Models.Departamento>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -64,7 +71,7 @@ using MvcCoreDoctores;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1>ListDepartamentos</h1>\r\n\r\n<p>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67280b7c3e58749ae2aec09cfcfe0aa46674f1895753", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67280b7c3e58749ae2aec09cfcfe0aa46674f1895986", async() => {
                 WriteLiteral("Create New");
             }
             );
@@ -136,7 +143,7 @@ using MvcCoreDoctores;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67280b7c3e58749ae2aec09cfcfe0aa46674f1899708", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67280b7c3e58749ae2aec09cfcfe0aa46674f1899941", async() => {
                 WriteLiteral("Detalles");
             }
             );
@@ -168,7 +175,7 @@ using MvcCoreDoctores;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67280b7c3e58749ae2aec09cfcfe0aa46674f18912039", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67280b7c3e58749ae2aec09cfcfe0aa46674f18912272", async() => {
                 WriteLiteral("Modificar");
             }
             );
@@ -200,7 +207,7 @@ using MvcCoreDoctores;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67280b7c3e58749ae2aec09cfcfe0aa46674f18914369", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "67280b7c3e58749ae2aec09cfcfe0aa46674f18914602", async() => {
                 WriteLiteral("Eliminar");
             }
             );

@@ -308,3 +308,9 @@ C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcCl
 C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\obj\Debug\netcoreapp3.1\Razor\Views\Departamentos\Edit.cshtml.g.cs
 C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\obj\Debug\netcoreapp3.1\Razor\Views\Departamentos\create.cshtml.g.cs
 C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\obj\Debug\netcoreapp3.1\Razor\Views\Departamentos\Delete.cshtml.g.cs
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\bin\Debug\netcoreapp3.1\NugetDoctorModels.dll
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\obj\Debug\netcoreapp3.1\Razor\Views\Doctor\create.cshtml.g.cs
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\obj\Debug\netcoreapp3.1\Razor\Views\Doctor\Delete.cshtml.g.cs
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\obj\Debug\netcoreapp3.1\Razor\Views\Doctor\Details.cshtml.g.cs
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\obj\Debug\netcoreapp3.1\Razor\Views\Doctor\Edit.cshtml.g.cs
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\obj\Debug\netcoreapp3.1\Razor\Views\Doctor\Index.cshtml.g.cs

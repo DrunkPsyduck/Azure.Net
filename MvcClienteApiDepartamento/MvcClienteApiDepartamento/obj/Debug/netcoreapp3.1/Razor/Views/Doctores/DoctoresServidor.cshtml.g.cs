@@ -19,8 +19,15 @@ using MvcCoreDoctores;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\Views\_ViewImports.cshtml"
+using NugetDoctorModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4c8d0005bece99a7e099937402ac20d64c1ba871", @"/Views/Doctores/DoctoresServidor.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"818a313e0c04579d6240fdd2c6bb990644c64b4e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"94ac5b7cec940819fb660a155646bee4c884c7f0", @"/Views/_ViewImports.cshtml")]
     public class Views_Doctores_DoctoresServidor : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<MvcCoreDoctores.Models.Doctor>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -73,7 +80,7 @@ using MvcCoreDoctores;
 #line hidden
 #nullable disable
             WriteLiteral("<h1>DoctoresServidor</h1>\r\n\r\n<p>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c8d0005bece99a7e099937402ac20d64c1ba8715395", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c8d0005bece99a7e099937402ac20d64c1ba8715628", async() => {
                 WriteLiteral("Create New");
             }
             );
@@ -89,7 +96,7 @@ using MvcCoreDoctores;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n</p>\r\n\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c8d0005bece99a7e099937402ac20d64c1ba8716566", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c8d0005bece99a7e099937402ac20d64c1ba8716799", async() => {
                 WriteLiteral("\r\n    <label>Selecciones una especialidad:</label>\r\n    <select name=\"especialidad\">\r\n");
 #nullable restore
 #line 19 "C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\Views\Doctores\DoctoresServidor.cshtml"
@@ -100,7 +107,7 @@ using MvcCoreDoctores;
 #line hidden
 #nullable disable
                 WriteLiteral("            ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c8d0005bece99a7e099937402ac20d64c1ba8717244", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("option", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c8d0005bece99a7e099937402ac20d64c1ba8717477", async() => {
 #nullable restore
 #line 21 "C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\Views\Doctores\DoctoresServidor.cshtml"
                              Write(espe);
@@ -243,7 +250,7 @@ using MvcCoreDoctores;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c8d0005bece99a7e099937402ac20d64c1ba87114993", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c8d0005bece99a7e099937402ac20d64c1ba87115226", async() => {
                 WriteLiteral("Detalles");
             }
             );

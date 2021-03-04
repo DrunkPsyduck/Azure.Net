@@ -19,8 +19,15 @@ using MvcCoreDoctores;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 2 "C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\MvcClienteApiDepartamento\MvcClienteApiDepartamento\Views\_ViewImports.cshtml"
+using NugetDoctorModels;
+
+#line default
+#line hidden
+#nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"bd3414753d9d2202a7737b77a18cab5f97f186e4", @"/Views/Departamentos/Delete.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"818a313e0c04579d6240fdd2c6bb990644c64b4e", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"94ac5b7cec940819fb660a155646bee4c884c7f0", @"/Views/_ViewImports.cshtml")]
     public class Views_Departamentos_Delete : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<MvcClienteApiDepartamento.Models.Departamento>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Index", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -109,9 +116,9 @@ using MvcCoreDoctores;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n    \r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bd3414753d9d2202a7737b77a18cab5f97f186e46679", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bd3414753d9d2202a7737b77a18cab5f97f186e46912", async() => {
                 WriteLiteral("\r\n        <input type=\"submit\" value=\"Delete\" class=\"btn btn-danger\" /> |\r\n        ");
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bd3414753d9d2202a7737b77a18cab5f97f186e47026", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bd3414753d9d2202a7737b77a18cab5f97f186e47259", async() => {
                     WriteLiteral("Back to List");
                 }
                 );

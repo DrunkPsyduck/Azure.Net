@@ -28,6 +28,10 @@ namespace MvcCore
             String urldoctores = "https://apidoctoresmc.azurewebsites.net/";
 
             String urlapidepartamentos = this.configuration["urlapidepartamentos"];
+
+            String urlapidoctores = this.configuration["urlapidoctores"];
+            services.AddTransient(x => new ServiceDoctores(urlapidoctores));
+
             services.AddTransient(x => new ServiceDepartamentos(urlapidepartamentos));
 
             //inyeccion sin url
