@@ -15,7 +15,8 @@ namespace ApiCrudDoctor.Repositories
             this.context = context;
         }
 
-        public List<Doctor> GetDoctores() {
+        public List<Doctor> GetDoctores()
+        {
             return this.context.Doctores.ToList();
         }
 
@@ -32,7 +33,7 @@ namespace ApiCrudDoctor.Repositories
             this.context.SaveChanges();
         }
 
-        public void InsertarDoctor(int id, String apellido, String especialidad, int salario, int hospital)
+        public void InsertarDoctor(int id, String apellido, String especialidad, int hospital, int salario)
         {
             Doctor doctor = new Doctor();
             doctor.IdDoctor = id;
@@ -44,7 +45,7 @@ namespace ApiCrudDoctor.Repositories
             this.context.SaveChanges();
         }
 
-        public void UpdateDoctor(int id, String apellido, String especialidad, int salario, int hospital)
+        public void UpdateDoctor(int id, String apellido, String especialidad, int hospital, int salario)
         {
             Doctor doctor = this.BuscarDoctor(id);
             doctor.Apellido = apellido;
@@ -58,7 +59,7 @@ namespace ApiCrudDoctor.Repositories
         public void IncrementarSalario(int incremento, int hospital)
         {
             List<Doctor> doctores = this.context.Doctores.Where(x => x.Hospital == hospital).ToList();
-            foreach(Doctor doc in doctores)
+            foreach (Doctor doc in doctores)
             {
                 doc.Salario += incremento;
             }
