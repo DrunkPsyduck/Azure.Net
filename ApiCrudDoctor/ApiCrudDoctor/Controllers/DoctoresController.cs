@@ -63,9 +63,9 @@ namespace ApiCrudDoctor.Controllers
         }
         [HttpGet]
         [Route("[action]")]
-        public ActionResult<List<Doctor>> DoctoresEspecialidad([FromQuery]List<String> especialidades)
+        public ActionResult<List<Doctor>> DoctoresEspecialidad([FromQuery]List<String> especialidad)
         {
-            return this.repo.GetDoctoresEspecialidad(especialidades);
+            return this.repo.GetDoctoresEspecialidad(especialidad);
         }
     }
 }

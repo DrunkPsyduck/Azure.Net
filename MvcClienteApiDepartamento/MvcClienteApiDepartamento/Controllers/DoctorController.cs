@@ -59,10 +59,19 @@ namespace MvcClienteApiDepartamento.Controllers
             return RedirectToAction("Index");
         }
 
-        [HttpGet]
-        public List<String> Especialidades()
+        public async Task<IActionResult> DoctoresEspecialidad()
         {
-            
+            ViewData["ESPECIALIDADES"] = await this.serviceApi.GetEspecialidadesAsync();
+            return View();
         }
+
+        [HttpPost]
+        public async Task<IActionResult> DoctoresEspecialidad(List<String> especialidad)
+        {
+            ViewData["ESPECIALIDADES"] = await this.serviceApi.GetEspecialidadesAsync();
+            return View(await this.serviceApi.GetDoctoresEspecialidadAsync(especialidad));
+
+        }
+
     }
 }
