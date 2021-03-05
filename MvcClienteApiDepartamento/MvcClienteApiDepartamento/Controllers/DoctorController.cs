@@ -58,5 +58,11 @@ namespace MvcClienteApiDepartamento.Controllers
             await this.serviceApi.DeleteDoctorAsync(id);
             return RedirectToAction("Index");
         }
+
+        [HttpGet]
+        public List<String> Especialidades()
+        {
+            
+        }
     }
 }

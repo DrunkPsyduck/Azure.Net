@@ -8589,25 +8589,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\mario\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento.csproj",
+      "projectUniqueName": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento.csproj",
       "projectName": "MvcClienteApiDepartamento",
-      "projectPath": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento.csproj",
-      "packagesPath": "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\obj\\",
+      "projectPath": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento.csproj",
+      "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\AlumnoMCSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8669,7 +8667,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
       }
     }
   }
