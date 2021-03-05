@@ -892,6 +892,18 @@
           "lib/netstandard1.6/NuGet.Frameworks.dll": {}
         }
       },
+      "NugetDoctorModelsMVRK/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/NugetDoctorModels.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NugetDoctorModels.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -4049,6 +4061,19 @@
         "lib/netstandard1.6/NuGet.Frameworks.xml",
         "nuget.frameworks.4.7.0.nupkg.sha512",
         "nuget.frameworks.nuspec"
+      ]
+    },
+    "NugetDoctorModelsMVRK/1.0.1": {
+      "sha512": "FaRP3HtnqT3hxb7ovBGfRH9kkc3YhqZ+fHYOlUCXPX163EFUReaZ62tSU/XxURH02pBkMmL4+Y+yuywjTMRz+Q==",
+      "type": "package",
+      "path": "nugetdoctormodelsmvrk/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "20210304_113400_0000.png",
+        "lib/netcoreapp3.1/NugetDoctorModels.dll",
+        "nugetdoctormodelsmvrk.1.0.1.nupkg.sha512",
+        "nugetdoctormodelsmvrk.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -8559,27 +8584,30 @@
     ".NETCoreApp,Version=v3.1": [
       "Microsoft.AspNet.WebApi.Client >= 5.2.7",
       "Microsoft.EntityFrameworkCore.SqlServer >= 5.0.3",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
+      "NugetDoctorModelsMVRK >= 1.0.1"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mario\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento.csproj",
+      "projectUniqueName": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento.csproj",
       "projectName": "MvcClienteApiDepartamento",
-      "projectPath": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento.csproj",
-      "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\obj\\",
+      "projectPath": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento.csproj",
+      "packagesPath": "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\MvcClienteApiDepartamento\\MvcClienteApiDepartamento\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\"
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\AlumnoMCSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8617,6 +8645,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.1.5, )"
+          },
+          "NugetDoctorModelsMVRK": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           }
         },
         "imports": [
@@ -8637,7 +8669,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }
