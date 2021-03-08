@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MvcClienteApiDepartamento.Services;
+using MvcCoreDoctores.Models;
 using NugetDoctorModels;
 using System;
 using System.Collections.Generic;
