@@ -55,5 +55,17 @@ namespace ApiCrudDoctor.Controllers
             this.repo.IncrementarSalario(incremento, hospital);
         }
 
+        [HttpGet]
+        [Route("[action]")]
+        public ActionResult<List<String>> Especialidades()
+        {
+            return this.repo.GetEspecialidades();
+        }
+        [HttpGet]
+        [Route("[action]")]
+        public ActionResult<List<Doctor>> DoctoresEspecialidad([FromQuery]List<String> especialidad)
+        {
+            return this.repo.GetDoctoresEspecialidad(especialidad);
+        }
     }
 }
