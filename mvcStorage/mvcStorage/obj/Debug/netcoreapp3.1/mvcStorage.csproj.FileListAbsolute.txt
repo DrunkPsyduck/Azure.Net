@@ -1,0 +1,7 @@
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\mvcStorage.csprojAssemblyReference.cache
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\mvcStorage.AssemblyInfoInputs.cache
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\mvcStorage.AssemblyInfo.cs
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\mvcStorage.csproj.CoreCompileInputs.cache
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\mvcStorage.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\mvcStorage.RazorAssemblyInfo.cache
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\mvcStorage.RazorAssemblyInfo.cs
