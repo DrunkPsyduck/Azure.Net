@@ -50,5 +50,17 @@ namespace ApiEmpleadoOAuth.Controllers
             Empleado empleado = JsonConvert.DeserializeObject<Empleado>(jsonempleado);
             return empleado;
         }
+
+        [HttpGet]
+        [Route("[action]")]
+         [Authorize]
+         public ActionResult<List<Empleado>> Subordinados()
+        {
+            List<Claim> claims = HttpContext.User.Claims.ToList();
+
+            String jsonempleado = claims.SingleOrDefault(x => x.Type == "UserData").Value;
+            Empleado empleado = JsonConvert.DeserializeObject<Empleado>(jsonempleado);
+            return this.repo.GetSubordinados(empleado.IdEmpleado);
+        }
     }
 }
