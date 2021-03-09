@@ -1,0 +1,15 @@
+﻿@model List<String>
+<h1>Azure Files</h1>
+
+<ul class="list-group">
+    @foreach (String f in Model)
+    {
+    <li class="list-group-item">
+        @f
+        <a asp-controller="AzureFiles" asp-action="Index" asp-route-filename="@f" class="btn btn-primary">Read file</a>
+        <a asp-controller="AzureFiles" asp-action="DeleteFile" asp-route-filename="@f" class="btn btn-danger">Delete file</a>
+    </li>
+
+    }
+</ul>
+@ViewData["CONTENT"]
