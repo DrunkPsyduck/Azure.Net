@@ -69,6 +69,10 @@
               "target": "Package",
               "version": "[1.0.0, )"
             },
+            "NugetDoctorModelsMVRK": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
             "WindowsAzure.Storage": {
               "target": "Package",
               "version": "[9.3.3, )"

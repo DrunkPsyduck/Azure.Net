@@ -741,6 +741,18 @@
           "lib/netcoreapp3.1/NuGetDoctoresModels.dll": {}
         }
       },
+      "NugetDoctorModelsMVRK/1.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.1/NugetDoctorModels.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/NugetDoctorModels.dll": {}
+        }
+      },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
         "type": "package",
         "runtimeTargets": {
@@ -3212,6 +3224,19 @@
         "lib/netcoreapp3.1/NuGetDoctoresModels.dll",
         "nugetdoctoresmodels.1.0.0.nupkg.sha512",
         "nugetdoctoresmodels.nuspec"
+      ]
+    },
+    "NugetDoctorModelsMVRK/1.0.1": {
+      "sha512": "FaRP3HtnqT3hxb7ovBGfRH9kkc3YhqZ+fHYOlUCXPX163EFUReaZ62tSU/XxURH02pBkMmL4+Y+yuywjTMRz+Q==",
+      "type": "package",
+      "path": "nugetdoctormodelsmvrk/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "20210304_113400_0000.png",
+        "lib/netcoreapp3.1/NugetDoctorModels.dll",
+        "nugetdoctormodelsmvrk.1.0.1.nupkg.sha512",
+        "nugetdoctormodelsmvrk.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -6826,6 +6851,7 @@
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5",
       "Microsoft.WindowsAzure.ConfigurationManager >= 3.2.3",
       "NuGetDoctoresModels >= 1.0.0",
+      "NugetDoctorModelsMVRK >= 1.0.1",
       "WindowsAzure.Storage >= 9.3.3"
     ]
   },
@@ -6898,6 +6924,10 @@
           "NuGetDoctoresModels": {
             "target": "Package",
             "version": "[1.0.0, )"
+          },
+          "NugetDoctorModelsMVRK": {
+            "target": "Package",
+            "version": "[1.0.1, )"
           },
           "WindowsAzure.Storage": {
             "target": "Package",

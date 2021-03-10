@@ -25,6 +25,7 @@ namespace mvcStorage
             String storageKey = this.Configuration["StorageKeyAccount"];
             services.AddTransient(x => new ServiceStorageFile(storageKey));
             services.AddTransient(x => new ServiceStorageBlob(storageKey));
+            services.AddTransient(X => new ServiceStorageTables(storageKey));
             services.AddControllersWithViews();
         }
 

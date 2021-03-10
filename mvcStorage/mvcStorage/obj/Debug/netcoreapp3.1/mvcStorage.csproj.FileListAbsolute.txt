@@ -269,3 +269,6 @@ C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug
 C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\mvcStorage.genruntimeconfig.cache
 C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\Razor\Views\AzureBlobs\ListBlobs.cshtml.g.cs
 C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\Razor\Views\AzureBlobs\UploadBlob.cshtml.g.cs
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\bin\Debug\netcoreapp3.1\NugetDoctorModels.dll
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\Razor\Views\AzureTables\CreateClient.cshtml.g.cs
+C:\Users\AlumnoMCSD\Documents\0-master\Azure.Net\mvcStorage\mvcStorage\obj\Debug\netcoreapp3.1\Razor\Views\AzureTables\Index.cshtml.g.cs

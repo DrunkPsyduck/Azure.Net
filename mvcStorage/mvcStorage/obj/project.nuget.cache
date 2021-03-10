@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HB/ejb1Xy5gwazZcksApxuKD8Nr2ihPCh9sGO/s9OKklHPmzdHB1Xlk0QwrTHxN4Gru5ZBNNdF3E764pThm3Cg==",
+  "dgSpecHash": "cIbnLb6uNcxinD4RxezzZA3gvbJzIX5v4HBvdGeJcDic8VELLTix/1f6Gj6avg3kWqgX6YRXT6PNpWvixmm5MQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\mvcStorage\\mvcStorage\\mvcStorage.csproj",
   "expectedPackageFiles": [
@@ -48,6 +48,7 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\newtonsoft.json.bson\\1.0.1\\newtonsoft.json.bson.1.0.1.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\nuget.frameworks\\4.7.0\\nuget.frameworks.4.7.0.nupkg.sha512",
     "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\nugetdoctoresmodels\\1.0.0\\nugetdoctoresmodels.1.0.0.nupkg.sha512",
+    "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\nugetdoctormodelsmvrk\\1.0.1\\nugetdoctormodelsmvrk.1.0.1.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
