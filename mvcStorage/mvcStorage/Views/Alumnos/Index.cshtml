@@ -1,0 +1,64 @@
+﻿@model IEnumerable<mvcStorage.Models.Alumno>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form method="post">
+    <label>Curso</label>
+    <input type="text" name="curso" class="form-control" />
+    <button type="submit" class="btn btn-info">Buscar alumnos</button>
+</form>
+
+@if (Model != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    ID
+                </th>
+                <th>
+                    Nombre
+                </th>
+                <th>
+                    Apellidos
+                </th>
+                <th>
+                    Curso
+                </th>
+                <th>
+                   Nota
+                </th>
+                
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @item.IdAlumno
+                    </td>
+                    <td>
+                        @item.Nombre
+                    </td>
+                    <td>
+                        @item.Apellidos
+                    </td>
+                    <td>
+                        @item.Curso
+                    </td>
+                    <td>
+                        @item.Nota
+                    </td>
+                   
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+

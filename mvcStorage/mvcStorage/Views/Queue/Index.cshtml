@@ -1,0 +1,25 @@
+﻿@model List<String> 
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<form method="post">
+    <label>Mensaje</label>
+    <input type="text" name="mensaje" class="form-control"/>
+    <button type="submit" name="accion" value="mensaje" class="btn btn-success">Enviar un mensaje</button>
+    <button type="submit" name="accion" value="batch" class="btn btn-info">Enviar un batch</button>
+    <button type="submit" name="accion" value="recibir" class="btn btn-primary">Recibir mensajes</button>
+</form>
+@if (Model != null)
+{
+    <ul class="list-group">
+        @foreach(String msj in Model)
+        {
+            <li class="list-group-item">
+                @msj
+            </li>
+        }
+    </ul>
+}
