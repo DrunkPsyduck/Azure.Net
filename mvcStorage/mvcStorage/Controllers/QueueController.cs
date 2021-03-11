@@ -23,6 +23,7 @@ namespace mvcStorage.Controllers
         [HttpPost]
         public async Task<IActionResult> Index (String mensaje, String accion)
         {
+            List<String> mensajes;
             if(accion.ToLower() == "mensaje")
             {
                 await this.ServiceBus.SendMessage(mensaje);
@@ -31,7 +32,9 @@ namespace mvcStorage.Controllers
                 await this.ServiceBus.SendBatchMenssages();
             } else if(accion.ToLower() == "recibir")
             {
-                List<String> mensajes = await this.ServiceBus.RecibirMensajes();
+               
+                 mensajes = await this.ServiceBus.RecibirMensajes();
+               
                 return View(mensajes);
             }
             return View();

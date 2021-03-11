@@ -12,7 +12,8 @@
     <button type="submit" name="accion" value="batch" class="btn btn-info">Enviar un batch</button>
     <button type="submit" name="accion" value="recibir" class="btn btn-primary">Recibir mensajes</button>
 </form>
-@if (Model != null)
+
+@if (Model != null )
 {
     <ul class="list-group">
         @foreach(String msj in Model)
