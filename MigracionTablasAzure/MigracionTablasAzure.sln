@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31005.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MigracionTablasAzure", "MigracionTablasAzure\MigracionTablasAzure.csproj", "{637D4395-8468-4FA5-AF7D-0BED77049BDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{637D4395-8468-4FA5-AF7D-0BED77049BDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{637D4395-8468-4FA5-AF7D-0BED77049BDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{637D4395-8468-4FA5-AF7D-0BED77049BDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{637D4395-8468-4FA5-AF7D-0BED77049BDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {73249EB6-B04F-47BF-B9B8-0FAB97A78575}
+	EndGlobalSection
+EndGlobal
