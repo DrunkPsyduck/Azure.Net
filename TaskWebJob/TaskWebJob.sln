@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskWebJob", "TaskWebJob\TaskWebJob.csproj", "{88D1A477-60E7-4829-943D-4A000865FED9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88D1A477-60E7-4829-943D-4A000865FED9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88D1A477-60E7-4829-943D-4A000865FED9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88D1A477-60E7-4829-943D-4A000865FED9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88D1A477-60E7-4829-943D-4A000865FED9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D053776B-C4D6-4E8B-A840-35CF289407AA}
+	EndGlobalSection
+EndGlobal
