@@ -35,10 +35,10 @@ namespace APIDoctores
 
             services.AddSwaggerGen(options =>
             {
-                options.SwaggerDoc(name: "v1", new OpenApiInfo
+                options.SwaggerDoc(name: "v2", new OpenApiInfo
                 {
                     Title = "API DOCTORES",
-                    Version = "v1",
+                    Version = "2.0",
                     Description = "API DOCTORES"
                 });
             });
