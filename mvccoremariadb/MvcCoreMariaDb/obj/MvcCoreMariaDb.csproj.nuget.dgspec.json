@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mario\\Documents\\0-Master\\Azure\\mvccoremariadb\\MvcCoreMariaDb\\MvcCoreMariaDb.csproj": {}
+    "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\mvccoremariadb\\MvcCoreMariaDb\\MvcCoreMariaDb.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mario\\Documents\\0-Master\\Azure\\mvccoremariadb\\MvcCoreMariaDb\\MvcCoreMariaDb.csproj": {
+    "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\mvccoremariadb\\MvcCoreMariaDb\\MvcCoreMariaDb.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\mvccoremariadb\\MvcCoreMariaDb\\MvcCoreMariaDb.csproj",
+        "projectUniqueName": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\mvccoremariadb\\MvcCoreMariaDb\\MvcCoreMariaDb.csproj",
         "projectName": "MvcCoreMariaDb",
-        "projectPath": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\mvccoremariadb\\MvcCoreMariaDb\\MvcCoreMariaDb.csproj",
-        "packagesPath": "C:\\Users\\mario\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mario\\Documents\\0-Master\\Azure\\mvccoremariadb\\MvcCoreMariaDb\\obj\\",
+        "projectPath": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\mvccoremariadb\\MvcCoreMariaDb\\MvcCoreMariaDb.csproj",
+        "packagesPath": "C:\\Users\\AlumnoMCSD\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\AlumnoMCSD\\Documents\\0-master\\Azure.Net\\mvccoremariadb\\MvcCoreMariaDb\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\mario\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\AlumnoMCSD\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -89,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
